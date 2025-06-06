@@ -1,0 +1,200 @@
+body {
+    background-color: #121212;
+    margin: 0;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .spotify-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #121212;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .home-button {
+    background-color: #282828;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .pesquisa-button {
+    background-color: #282828;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 4px;
+    outline: none;
+    width: 400px;
+    padding: 8px 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .pesquisa-button::placeholder {
+    color: #b3b3b3;
+  }
+  
+  .planos-button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-bottom: 4px;
+    outline: none;
+    width: 175px;
+    padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+  }
+  
+  .sino-button {
+    background-color: #121212;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin-bottom: 4px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .sidebar{
+    width: 60px;
+    background-color: #292828;
+    padding: 20px 10px;
+    height: 100vh;
+    overflow-y: auto;
+    margin-left: 20px;
+    margin-right: -60px;
+    border-radius: 10px;
+    height:650px;
+    margin-top: 35px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+    display: flex;
+  }
+  
+  .sidebar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    object-fit: cover;
+    transition: transform 0.2s;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  .sidebar img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .adicionar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #424242;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-left: 7px;
+  }
+  
+  
+  .main-content {
+    padding: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: 1;
+    margin-top: 5px;
+  }
+  
+  .playlist-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .playlist-item {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    background-color: #292828;
+    padding:12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-direction: column;
+  }
+  
+  .playlist-item:hover {
+    background-color: #3e3e3e;
+  }
+  
+  .playlist-item img {
+    width: 280px;
+    height: 260px;
+    border-radius: 4px;
+    margin-right: 15px;
+    object-fit: cover;
+    margin-left: 14px;
+  }
+  
+  .playlist-item span {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+  }
